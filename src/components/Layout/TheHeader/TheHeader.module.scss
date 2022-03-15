@@ -1,0 +1,17 @@
+@import "../../../assets/base/colors.scss";
+
+.header {
+  background-color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__list {
+    display: flex;
+  }
+
+  &__list_item {
+    margin-right: 1rem;
+  }
+}

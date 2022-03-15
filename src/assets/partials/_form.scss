@@ -1,0 +1,15 @@
+.form {
+  &__row {
+    margin-bottom: 1rem;
+  }
+
+  &__input {
+    margin-bottom: 5px;
+  }
+
+  &__error {
+    color: crimson;
+    max-width: 400px;
+    margin: 5px auto;
+  }
+}

@@ -1,0 +1,17 @@
+header li a {
+  text-decoration: none;
+  color: $color-primary;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+header li a:hover {
+  background-color: $color-cta;
+  color: white;
+}
+
+/* fix navigation link not setting to active */
+header li a.active {
+  color: white;
+  background-color: $color-cta;
+}
