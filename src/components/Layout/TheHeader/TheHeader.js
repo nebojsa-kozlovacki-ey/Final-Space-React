@@ -1,11 +1,6 @@
-import React, { useEffect, useState } from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-  NavLink,
-} from "react-router-dom";
+import React, { useContext } from "react";
+import { NavLink } from "react-router-dom";
+// import EpisodeContext from "../../../store/episode-context";
 import classes from "./TheHeader.module.scss";
 
 const TheHeader = (props) => {
@@ -18,6 +13,9 @@ const TheHeader = (props) => {
           </li>
           <li className={classes.header__list_item}>
             <NavLink to="/Episodes">Episodes</NavLink>
+          </li>
+          <li className={classes.header__list_item}>
+            <NavLink to="/Characters">Characters</NavLink>
           </li>
         </ul>
       </nav>

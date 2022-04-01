@@ -10,7 +10,7 @@ const EpisodesItem = (props) => {
         <img
           className={classes.episodesItem__img}
           src={img_url}
-          alt={`Episode ${name} image`}
+          alt={`Episode ${name}`}
         />
       </div>
       <div className={classes.episodesItem__content}>
@@ -20,7 +20,7 @@ const EpisodesItem = (props) => {
       </div>
       <div className={classes.episodesItem__favorite}>
         <i
-          onClick={() => onFavor(id)}
+          onClick={() => onFavor({ name, img_url, id })}
           className={`fa-solid fa-star ${classes.icon} ${
             selected ? `${classes.active}` : ""
           }`}

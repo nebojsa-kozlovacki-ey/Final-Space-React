@@ -45,6 +45,20 @@
 
       &.active {
         color: #fcda4d;
+        animation-name: example;
+        animation-duration: 1s;
+      }
+      @keyframes example {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.2);
+          color: white;
+        }
+        100% {
+          transform: scale(1);
+        }
       }
     }
   }

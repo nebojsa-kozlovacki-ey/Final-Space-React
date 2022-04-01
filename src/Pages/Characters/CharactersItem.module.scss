@@ -1,0 +1,17 @@
+.character {
+  &__img_wrapper {
+    width: 100%;
+  }
+
+  &__img {
+    width: 100px;
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+
+  &__species {
+    font-style: italic;
+  }
+}
