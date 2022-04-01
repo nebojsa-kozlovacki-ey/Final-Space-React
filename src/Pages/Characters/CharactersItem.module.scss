@@ -1,10 +1,18 @@
+@import "../../assets/base/colors";
+
 .character {
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+
   &__img_wrapper {
     width: 100%;
+    padding-bottom: 0.5rem;
   }
 
   &__img {
-    width: 100px;
+    width: 100%;
+    border-radius: 0.2rem;
   }
 
   &__name {
@@ -13,5 +21,33 @@
 
   &__species {
     font-style: italic;
+  }
+
+  &__row {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  &__episode_count {
+    color: $color-cta;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+
+    &:after {
+      position: absolute;
+      content: "";
+      background-color: rgba(200, 200, 200, 0.5);
+      color: white;
+      width: 1.5rem;
+      height: 1.5rem;
+      left: 0;
+      border-radius: 50%;
+    }
   }
 }
