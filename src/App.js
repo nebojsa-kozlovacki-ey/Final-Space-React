@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.scss";
 
-import styles from "./assets/styles.scss";
+import styles from "./Assets/styles.scss";
 
-import TheHeader from "./components/Layout/TheHeader/TheHeader";
-import Main from "./components/Layout/Main/Main";
+import TheHeader from "./Components/Layout/TheHeader/TheHeader";
+import Main from "./Components/Layout/Main/Main";
 import Home from "./Pages/Home/Home";
 import Episodes from "./Pages/Episodes/Episodes";
 import Characters from "./Pages/Characters/Characters";

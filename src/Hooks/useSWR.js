@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import allActions from "../store/actions";
+import allActions from "../Store/actions";
 
 // @useSwr('series/getEpisodes', 'episodes')
 //

@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./Home.module.scss";
+import axios from "axios";
 
 const Home = (props) => {
+  useEffect(() => {
+    axios
+      .get("/api")
+      .then((result) => {
+        console.log("RESULT : ", result);
+      })
+      .catch((error) => console.log(error));
+  }, []);
+
   return (
     <div className={classes.home}>
       {/* Description */}
