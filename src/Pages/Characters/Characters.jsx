@@ -1,3 +1,4 @@
+import React from 'react'
 import useSWR from "../../Hooks/useSWR";
 import classes from "./Characters.module.scss";
 import CharacterItem from "./CharacterItem";

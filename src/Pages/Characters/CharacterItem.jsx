@@ -1,3 +1,4 @@
+import React from 'react'
 import classesItem from "./CharactersItem.module.scss";
 
 const Character = ({ name, img_url, species, episodeCount }) => {

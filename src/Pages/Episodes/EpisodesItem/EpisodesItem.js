@@ -1,3 +1,4 @@
+import React from 'react'
 import classes from "./EpisodesItem.module.scss";
 
 const EpisodesItem = (props) => {
