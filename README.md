@@ -1,3 +1,16 @@
+# How to setup
+
+**Prerequisites: create .env file based on .env.example, and fill it with api urls!**
+
+1. In the root directory run `npm install`,
+
+2. Go to backend directory and run `npm install` again.
+
+3. In the root directory run `npm start:all`. 
+
+Now you should navigate to `localhost:3005` and see running app.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
