@@ -1,6 +1,6 @@
 # How to setup
 
-**Prerequisites: create .env file based on .env.example, and fill it with api urls!**
+**Prerequisites: create .env file based on .env.example**
 
 1. In the root directory run `npm install`,
 
